@@ -1,7 +1,7 @@
 name: ci-build
 run-name: Building ${{ github.ref_name }}
 env:
-  version: 1.11.3
+  version: 1.12.0
 permissions:
   contents: read
   packages: write
