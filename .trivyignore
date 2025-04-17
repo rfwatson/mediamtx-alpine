@@ -1,4 +1,0 @@
-# github.com/golang-jwt/jwt/v5
-# Fixed in https://github.com/bluenviron/mediamtx/commit/3f1237a0
-# Can be removed after v1.11.3.
-CVE-2025-30204 
