@@ -19,12 +19,3 @@ is required in the MediaMTX container for running health checks.
 
 The provided MediaMTX Docker image is a scratch image that has no additional
 tooling.
-
-#### Why base the final image on Alpine, instead of copying curl and mediamtx binaries to another scratch image?
-
-The default build of curl as installed by Alpine is dynamically linked and does
-not run on a scratch image due to lack of supporting libraries.
-
-On the surface the size difference between the two images is about 13MB. It
-would probably be possible to use a static build of curl instead, but that
-would have trade-offs in terms of build complexity and supply chain trust.
