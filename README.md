@@ -8,7 +8,7 @@ The image version maps directly to the MediaMTX version.
 
 [![Trivy Scan](https://github.com/rfwatson/mediamtx-alpine/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/rfwatson/mediamtx-alpine/actions/workflows/build.yml)
 [![Docker Image](https://img.shields.io/badge/image-ghcr.io%2Frfwatson%2Fmediamtx--alpine-blue)](https://ghcr.io/rfwatson/mediamtx-alpine)
-![Version](https://img.shields.io/badge/version-1.13.0-blue)
+![Version](https://img.shields.io/badge/version-1.13.1-blue)
 
 ## FAQ
 
